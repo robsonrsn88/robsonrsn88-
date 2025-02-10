@@ -98,4 +98,5 @@ async def main():
     await app.run_polling()
 
 # Executar o bot
-await main()
+import asyncio
+asyncio.run(main())
